@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.box {
+    background-color: #ccc;
+    width: 500px;
+    padding: 5px;
+    position: relative;
+    left: 50px;
+    top: 800px;
+    border: 1px solid #bbb;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+.box h2,p {
+margin: 40px auto;
+display: none;
+}
+
+input{
+    width: 300px;
+    margin: 10px auto;
+    padding: 10px;
+    display: none;
+
+}
+
+button{
+    width: 50px;
+    align-self: flex-end;
+    transform: translateX(-85px);
+    margin-top: 10px;
+    display: none;
+}
